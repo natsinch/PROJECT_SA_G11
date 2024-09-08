@@ -20,4 +20,5 @@ type Notification struct {
 	// BenefitsID ทำหน้าที่เป็น FK
 	BenefitsID *uint
 	Benefits   []Benefits `gorm:"foriegnKey:BenefitID"`
+	//458236
 }
